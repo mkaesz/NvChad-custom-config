@@ -10,6 +10,7 @@ vim.opt.swapfile = false                        -- creates a swapfile
 vim.opt.timeoutlen = 1000                       -- time to wait for a mapped sequence to complete (in milliseconds)
 vim.opt.writebackup = false                     -- if a file is being edited by another program (or was written to file while editing with another program), it is not allowed to be edited
 vim.opt.expandtab = true                        -- convert tabs to spaces
+vim.opt.autoindent = true
 vim.opt.shiftwidth = 2                          -- the number of spaces inserted for each indentation
 vim.opt.relativenumber = true                   -- set relative numbered lines
 vim.opt.wrap = false                            -- display lines as one long line
@@ -17,6 +18,6 @@ vim.opt.scrolloff = 10                          -- is one of my fav
 vim.opt.sidescrolloff = 8
 vim.opt.guifont = "monospace:h17"               -- the font used in graphical neovim applications
 vim.opt.colorcolumn = "80"
-
-
-
+vim.opt.signcolumn = "yes"
+vim.opt.backspace = "indent,eol,start"
+vim.opt.iskeyword:append("-")

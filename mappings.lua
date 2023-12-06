@@ -18,7 +18,7 @@ M.dap_python = {
   }
 }
 
-M.msk = {
+  M.msk = {
   n = {
     ["<C-Up>"] = {"<cmd> resize +2 <CR>", "Resize with arrow"},
     ["<C-Down>"] = {"<cmd> resize -2 <CR>", "Resize with arrow"},
