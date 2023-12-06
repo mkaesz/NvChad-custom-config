@@ -37,6 +37,12 @@ M.dap_python = {
     ["<leader>tn"] = {"<cmd> tabn <CR>", "Go to next tab"},
     ["<leader>tp"] = {"<cmd> tabp <CR>", "Go to previous tab"},
     ["<leader>sm"] = {"<cmd> MaximizerToggle <CR>", "Toggle split window maximization"},
+    ["<C-h>"] = { "<cmd> TmuxNavigateLeft <CR>", "Window left" },
+    ["<C-l>"] = { "<cmd> TmuxNavigateRight <CR>", "Window right" },
+    ["<C-j>"] = { "<cmd> TmuxNavigateDown <CR>", "Window down" },
+    ["<C-k>"] = { "<cmd> TmuxNavigateUp <CR>", "Window up" },
+
+
   },
   i = {},
   v = {
@@ -48,7 +54,6 @@ M.dap_python = {
   },
   x = {},
   t = {
-
     ["<C-h>"] = {"<C-\\><C-N><C-w>h", "Move in terminal"},
     ["<C-j>"] = {"<C-\\><C-N><C-w>j", "Move in terminal"},
     ["<C-k>"] = {"<C-\\><C-N><C-w>k", "Move in terminal"},
