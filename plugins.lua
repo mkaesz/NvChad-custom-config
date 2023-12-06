@@ -75,6 +75,12 @@ local plugins = {
   {
     "szw/vim-maximizer",
     lazy=false,
+  },
+  {
+    "tpope/vim-surround",
+  },
+  {
+    "inkarkat/vim-ReplaceWithRegister",
   }
 }
 return plugins
