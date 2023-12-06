@@ -77,10 +77,22 @@ local plugins = {
     lazy=false,
   },
   {
-    "tpope/vim-surround",
+    "kylechui/nvim-surround",
+    version = "*",
+    event = "VeryLazy",
+    config = function()
+        require("nvim-surround").setup({
+        })
+    end
   },
   {
     "inkarkat/vim-ReplaceWithRegister",
+  },
+  {
+    "lewis6991/gitsigns.nvim",
+    config = function ()
+      require('gitsigns').setup()
+    end
   }
 }
 return plugins
