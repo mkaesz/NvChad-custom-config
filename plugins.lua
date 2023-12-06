@@ -64,7 +64,7 @@ local plugins = {
   },
   {
     "max397574/better-escape.nvim",
-    lazy = false,
+    event = "InsertEnter",
     config = function()
       require("better_escape").setup()
     end,
