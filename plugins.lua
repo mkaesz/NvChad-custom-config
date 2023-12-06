@@ -62,6 +62,13 @@ local plugins = {
       require "custom.configs.lspconfig"
     end,
   },
+  {
+    "max397574/better-escape.nvim",
+    lazy = false,
+    config = function()
+      require("better_escape").setup()
+    end,
+  },
 }
 return plugins
 
