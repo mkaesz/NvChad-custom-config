@@ -69,6 +69,13 @@ local plugins = {
       require("better_escape").setup()
     end,
   },
+  {
+    "christoomey/vim-tmux-navigator"
+  },
+  {
+    "szw/vim-maximizer",
+    lazy=false,
+  }
 }
 return plugins
 

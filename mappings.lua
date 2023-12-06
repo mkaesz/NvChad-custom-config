@@ -36,6 +36,7 @@ M.dap_python = {
     ["<leader>tx"] = {"<cmd> tabclose <CR>", "Close current tab"},
     ["<leader>tn"] = {"<cmd> tabn <CR>", "Go to next tab"},
     ["<leader>tp"] = {"<cmd> tabp <CR>", "Go to previous tab"},
+    ["<leader>sm"] = {"<cmd> MaximizerToggle <CR>", "Toggle split window maximization"},
   },
   i = {},
   v = {
