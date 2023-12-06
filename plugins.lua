@@ -118,6 +118,13 @@ local plugins = {
         { desc = "Go to previous harpoon mark" }
       )
     end,
+  },
+  {
+    "ptzz/lf.vim",
+    dependencies = {
+      "voldikss/vim-floaterm"
+    },
+    lazy = false
   }
 }
 return plugins
