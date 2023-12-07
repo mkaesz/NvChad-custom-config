@@ -125,6 +125,14 @@ local plugins = {
       "voldikss/vim-floaterm"
     },
     lazy = false
+  },
+  {
+    'numToStr/Navigator.nvim',
+    config = function ()
+      require("Navigator").setup()
+
+    end,
+    lazy = false,
   }
 }
 return plugins
